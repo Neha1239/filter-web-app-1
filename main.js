@@ -13,7 +13,7 @@ poseNet=ml5.poseNet(video,modelLoaded);
 poseNet.on('pose',gotPoses);
 }
 function draw() {
-image(video,0,0,300,300)
+image(video,0,0,300,300);
 image(lipstick_Image,noseX,noseY,30,30);
 }
 function take_snapshot() {
